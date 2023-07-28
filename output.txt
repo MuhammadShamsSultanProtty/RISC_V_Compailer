@@ -1,0 +1,93 @@
+#include --> ID
+< SHL
+stdio --> ID
+.h --> ID
+> SHR
+
+
+int --> ID
+main --> ID
+( LPAREN
+) RPAREN
+{ LBRACE
+
+
+double --> ID
+num --> ID
+; SEMI
+
+printf --> ID
+( LPAREN
+"Enter --> ID
+a --> ID
+number --> ID
+:") RPAREN
+; SEMI
+
+scanf --> ID
+( LPAREN
+"%lf --> ID
+",& AND
+num --> ID
+) RPAREN
+; SEMI
+
+if --> ID
+( LPAREN
+num --> ID
+< SHL
+= EQUAL
+0 NUMBER
+.0 NUMBER
+) RPAREN
+{ LBRACE
+
+if --> ID
+( LPAREN
+num --> ID
+= EQUAL
+= EQUAL
+0 NUMBER
+.0 NUMBER
+) RPAREN
+
+printf --> ID
+( LPAREN
+"You --> ID
+entered --> ID
+0 NUMBER
+.") RPAREN
+; SEMI
+
+else --> ID
+
+printf --> ID
+( LPAREN
+"You --> ID
+entered --> ID
+a --> ID
+negative --> ID
+number --> ID
+.") RPAREN
+; SEMI
+
+} RBRACE
+
+else --> ID
+
+printf --> ID
+( LPAREN
+"You --> ID
+entered --> ID
+a --> ID
+positive --> ID
+number --> ID
+.") RPAREN
+; SEMI
+
+
+return --> ID
+0 NUMBER
+; SEMI
+
+} RBRACE
